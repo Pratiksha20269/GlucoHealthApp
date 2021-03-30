@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Physical_Activity"
+    android:background="@color/grey"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#B5BDB9"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20sp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="Simple Ways to Increase Your Physical Activity"
+                android:textColor="@color/Black"
+                android:textSize="25sp">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:text="Regardless of your shape or size, physical activity has been shown to add years to your life, and life to your years. But believe it or not, the benefits of physical activity are not restricted to exercise performed in the gym. In fact, one of the easiest ways to improve your health may be through increasing the amount of low-intensity physical activity you perform throughout the day."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:text="For example, simply increasing the number of steps that you take each day is very likely to reduce your risk for diseases like diabetes and cardiovascular disease. It’s still uncertain if this light intensity physical activity can reduce body weight, but it is clear that individuals who engage in high amounts of light-intensity physical activity are healthier than those who do not. In fact, there is good evidence to suggest that simply reducing the amount of time spent sitting each day may reduce the risk of death independently of other lifestyle factors."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="20dp"
+                android:text="Here are simple ways to become more physically active "
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="1. Take the stairs as often as possible"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/walking"></ImageView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

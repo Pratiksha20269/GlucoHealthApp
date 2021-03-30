@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Control_Diabetes"
+    android:background="@color/grey"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#B5BDB9"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20sp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="Control Diabetes through Exercise."
+                android:textColor="@color/Black"
+                android:textSize="25sp">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:text="If you have diabetes, exercise offers surprising benefits. Not only does it lower your stress levels, it may also lower your blood sugar level and may even reduce your insulin requirements."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:text="Exercise is so important for people with diabetes that The National Institutes of Health (NIH) recommends 150 minutes of aerobic exercise each week. And the American Diabetes Association recommends that you miss no more than two days of aerobic exercise in a row. "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="* 5 Best Exercises *"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="Try to make a habit of doing the following exercises on a regular basis. They’ll give you the maximum benefits to help you manage your diabetes, and are relatively easy to fit in each day. "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="1. WALKING"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/walking"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Because anyone can do it almost anywhere, walking is the most popular exercise and highly recommended for people with diabetes. Spending 30 minutes of brisk walking, five times each week is a great way to increase your physical activity. You can even break this 30 minutes down into 10-minute sessions three times a day."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="2. TAI CHI"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/taichi"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="This Chinese form of exercise uses slow, smooth body movements to relax the mind and body. Studies have shown those who complete tai chi sessions show significant improvement in blood sugar control. They also report increased vitality, energy and mental health."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="3. YOGA"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/yoga"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="A traditional form of exercise, yoga incorporates fluid movements that build flexibility, strength and balance. It’s helpful for people with a variety of chronic conditions, including diabetes. It lowers stress and improves nerve function, which leads to an increased state of mental health and wellness. According to the ADA, yoga may improve blood glucose levels due to improved muscle mass."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="4. DANCING"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dancing"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Dancing is not only great for your body. The mental work to remember dance steps and sequences actually boosts brain power and improves memory. For those with diabetes, it is a fun and exciting way to increase physical activity, promote weight loss, improve flexibility, lower blood sugar and reduce stress. Chair dancing, which incorporates the use of a chair to support people with limited physical abilities, makes dancing an option for many people. In just 30 minutes, a 150-pound adult can burn up to 150 calories."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="5. SWIMMING"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/swimming"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Swimming stretches and relaxes your muscles and doesn’t put pressure on your joints, which is great for people with diabetes. For those with diabetes or at risk for developing diabetes, studies show it improves cholesterol levels, burns calories and lowers stress levels. To get the most benefit from swimming, we recommend that you swim at least three times a week for at least ten minutes and gradually increase the length of the workout. Lastly, let the lifeguard know that you have diabetes before you get in the pool."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="# EXERCISE SAFETY #"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="Before starting an exercise program, talk to your doctor to be sure the exercise you choose is safe and appropriate for your type of diabetes. Remember to start slowly, especially if you have not been physically active for a while."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Here are other safety tips: "
+                android:textColor="@color/Black"
+                android:textSize="16sp"></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:textColor="@color/Black"
+                android:text="* Check your blood sugar before and after exercise until you are aware of how your body responds to exercise. "
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:textColor="@color/Black"
+                android:text="* Whether you have Type 1 or Type 2 diabetes, make sure your blood sugar is less than 250 mg/dl before exercising. For people with Type 1 diabetes, exercising with a blood sugar higher than 250 mg/dl may cause ketoacidosis, which can be a life threatening condition resulting from a lack of insulin in the body. Do a five-minute warm-up before and a five-minute cool down after exercising."
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:textColor="@color/Black"
+                android:text="* Drink plenty of water before, during and after exercise to prevent dehydration."
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:textColor="@color/Black"
+                android:text="* Be prepared for any episodes of low blood sugar. Have something available that can bring sugar levels up, such as hard candy, glucose tablets or 4 ounces of juice."
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:textColor="@color/Black"
+                android:text="* Always carry a cell phone."
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:textColor="@color/Black"
+                android:text="* Avoid exercising in extremely hot or cold temperatures."
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:textColor="@color/Black"
+                android:text="* Wear proper shoes and socks to protect your feet."
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:text="As with any exercise, always listen to your body. If you become short of breath, dizzy or lightheaded, stop exercising. Report any unusual problems you experience to your doctor."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

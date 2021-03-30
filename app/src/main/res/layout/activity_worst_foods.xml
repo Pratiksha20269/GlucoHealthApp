@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+    android:background="@color/grey"
+    tools:context=".WorstFoods">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#B5BDB9"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20sp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="Foods which are Best For Diabetes"
+                android:textColor="@color/Black"
+                android:textSize="25sp">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:text="Glycemic index is an international value used to measure the rate at which your blood sugar is raised after the intake of each food item.Higher the value,faster it will raise blood sugar. If you are having Diabetes, you are advised to take only those food items, which have a value less than 50."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:text="So do have a close look at the lists below and control your blood sugar properly by avoiding these foods."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="WHITE RICE"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/white_rice"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="White rice is known to have a high glycemic index, around 89, which tends to spike sugar levels in the blood."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="serif"
+                android:text="It is advised to avoid all food items prepared with white rice alone, like Fried Rice, Biryani, Pulao and other rice delicacies."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="FRUIT JUICES AND MILK SHAKES"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/milk_shakes"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Fruit juices tend to have sugar in the concentrated form due to the loss of fiber. Fruit juices can be easily consumed in large quantities without reaching satiety and hence, in comparison to eating fresh fruits, more amount of fruit content enters the body, which means more sugar enters the body. The same applies to milk shakes."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="FATTY MEATS AND PROCESSED MEATS"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/red_meat"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Red meat is high in fats and processed meat is high in sodium. They play a major role in the occurrence and worsening of heart disease. Since Diabetes is also linked to higher chances of developing heart diseases, these food products should be avoid for a healthy heart."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="SUGARY/ CARBONATED DRINKS and BLENDED COFFEE"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/carbonated_drinks"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Carbonated drinks have high sugar content and have no nutritional benefits. They contain empty calories and will spike sugar levels. Sugary drinks, liked packaged fruit juices, blended coffee should also be avoided due to the high sugar content."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="CHINESE FOOD"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/chinese"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Chinese food is loved by most of the people. It is rich in calories, carbohydrates, fat and sodium. All these factors adversely affect the control of blood sugars and the prevention of complications of Diabetes."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="BAKERY PRODUCTS"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bakery_products"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Most baked products, like bread, buns, doughnuts, cakes, biscuits and cookies, are made from white flour which has a high glycemic index. Due to the added sugar and butter/oil, these products also tend to be high in calories and hence should be avoided."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="FRIED FOODS"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fried_food"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Fried food like Fried fish, Meat and French fries contain high amounts of fat, calories and carbohydrates which can all create havoc on blood sugar levels. They also contain added sodium which has negative effects on the heart. Hence all fried foods should be limited as much as possible."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="ALCOHOL"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/alcohol"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Alcohol can either cause blood glucose levels to rise or fall, depending on the quantity consumed and the medications being taken for Diabetes. Due to this, the effect of alcohol on Diabetics can be quite unpredictable."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="serif"
+                android:text="Do you know that drinking a glass of Beer will create blood sugar spikes equivalent to 3 cups of Icecream?Beer is one of the food item with the highest Glycemic Index of 110, while that of icecream is only 41."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="FAST FOODS"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fast_food"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Current generations have developed a huge inclination towards fast food like burgers, pizzas and fries. Fast food has a high calorie, high fat and high carbohydrate content which can rapidly increase blood sugar levels and it becomes difficult to control blood sugar levels following consumption of such foods."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="*Best Vegetables*"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Certain vegetables also have a high glycemic index and should be avoided.Here are the top 5 vegetables to be avoided.(Glycemic Index is given in brackets)"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="1. Potato/ Russet Potato (94-111)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/potatoes"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="2. Parsnip (75)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/parsnip"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="3. Pumpkin (75)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pumpkins"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="4. Tapioca/ Cassava (72-81)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cassava"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="5. Beetroot (61)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/beetroot"></ImageView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="*Best Fruits*"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Though generally fruits are considered good for health, certain fruits can cause havoc when it comes to blood sugar levels.These fruits have a high glycemic index which leads to sudden rise of blood sugars which can be very dangerous."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="serif"
+                android:text="Here are the top 5 fruits to be avoided by those who have Diabetes.(Glycemic Index is given in brackets-higher the value,faster it will raise blood sugar)."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="1. Watermelon (73)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/watermelons"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="2. Pineapple (66)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pineapple"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="3. Raisins (64)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/raisins"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="4. Bananas (62)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bananas"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="5. Mangoes (60)"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mangoes"></ImageView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

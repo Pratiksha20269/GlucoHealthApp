@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Home"
+    android:background="@drawable/gradient"
+    tools:openDrawer="start">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+  <androidx.appcompat.widget.Toolbar
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/toolbar"
+         android:layout_alignParentTop="true"
+         android:background="@color/Black"
+         android:minHeight="?attr/actionBarSize"
+         app:title="GlucoHealth"
+         app:titleTextColor="@color/purple_200">
+      </androidx.appcompat.widget.Toolbar>
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="match_parent"
+          android:layout_height="286dp"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginEnd="0dp"
+          android:layout_marginRight="0dp"
+          app:srcCompat="@drawable/tip1"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="150dp"/>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:id="@+id/letsBegin"
+           android:layout_marginTop="40dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="28dp"
+           android:layout_below="@+id/imageView"
+           android:background="@drawable/button_rounded"
+           android:text="Ok,let's begin!!"
+           android:fontFamily="@font/baloo"
+           android:textColor="@color/purple_200"
+           android:textSize="22sp"
+           android:onClick="btn_Dashboard"
+           app:layout_constraintVertical_bias="0.033"/>
+
+       <Button
+           android:id="@+id/LogoutBtn"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_alignBottom="@+id/letsBegin"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginStart="30dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="561dp"
+           android:layout_marginEnd="28dp"
+           android:layout_marginRight="28dp"
+           android:layout_marginBottom="-85dp"
+           android:background="@drawable/button_rounded"
+           android:fontFamily="@font/baloo"
+           android:text="Log Out"
+           android:onClick="logout"
+           android:textColor="@color/purple_200"
+           android:textSize="22sp"
+           app:layout_constraintBottom_toBottomOf="@+id/letsBegin"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintVertical_bias="0.033"></Button>
+
+
+   </RelativeLayout>
+   <com.google.android.material.navigation.NavigationView
+       android:id="@+id/nav_view"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_gravity="start"
+       app:headerLayout="@layout/nav_header_main"
+       app:menu="@menu/activity_main_drawer"
+       />
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+

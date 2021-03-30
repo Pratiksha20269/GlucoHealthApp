@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DiabetesFacts"
+    android:background="@color/grey"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#B5BDB9"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20sp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="Facts about Diabetes that You should Know "
+                android:textColor="@color/Black"
+                android:textSize="25sp">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="What is Diabetes?"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/whats_diabetes"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Diabetes is one of the most common health disorders found all over the world. Approximately one in every 25 people are affected by Diabetes and a large population is predisposed to suffer from it, With all the advancements in modern medicine, we have failed to find a cure for it. We do not even know the exact cause of Diabetes. Today it has affected the enire world irrespective of the lifestyle, age, and geographical location."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="Diabetes is a metabolic disorder. It is associated with a hormone called 'insulin' which is secreted by a gland known as 'pancreas' situated near the lower border of the stomach. Diabetes arises either from 'deficiency od insulin' or from 'inability of cells to utilize the available insulin'. It is basically the 'lack of action' of insulin that brings about Diabetes. This disorder affects the whole metabolism of the body. Modern sciences have failed to explain with certainty why the pancreas stop the production of insulin or why body cells develop resistance to insulin."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Diabetes - Causes"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/diabetes_causes"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="The causes of diabetes are still not known but there are certain predisposing factors that considerably increase the chances of developing diabetes. Some predisposing factors(especially those of Type 2) are"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="28dp"
+                android:fontFamily="serif"
+                android:text="1) A sedentary lifestyle with very less physical activity "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="28dp"
+                android:fontFamily="serif"
+                android:text="2) Family history of diabetes "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="28dp"
+                android:fontFamily="serif"
+                android:text="3) Old age "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="28dp"
+                android:fontFamily="serif"
+                android:text="4) BMI above 30 "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="28dp"
+                android:fontFamily="serif"
+                android:text="5) Eating habits especially when the food contains excessive carbohydrates"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="What actually happens!!!"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="170dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/what_happens"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="When we eat food, it is digested in the digestive tract beginning from the mouth. Complex food is broken down into simpler foods such as glucose, amino acids, fatty acids, vitamins, etc. which can be absorbed in the blood. In a normal human being, the glucose produced in this way is acted upon by a hormone called insulin which helps in taking this glucose to all body cells for their energy needs and converts the'leftover' glucose into glycogen. Thus, the chief role of insulin is to regulate the glucose level in the blood. Sometimes, for unknown reasons, either the Pancreas gland stops producing insulin or the body cells develop the inability to utilize the available insulin, thereby causing glucose level in the blood to rise whhich eventually results in diabetes. More than 90% of all diabetics suffer from the type of diabetes that is caused by the inability of body cells to utilize the available insulin to regulate the glucose level."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="When body cells do not receive glucose for their energy needs, the begin to starve. To supplement the energy needs, the body starts disintegrating the stored fats and proteins leading to loss of weight, fatigue, weakness and several other complications. "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="Symptoms and their reasons explained"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="170dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/diabetes_symptons"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="20dp"
+                android:text="Common symptoms of diabetes include:"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="1) Frequent and excessive urination "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="As you already know, the glucose level in the blood is very high in diabetes. This glucose circulates in the blood and reaches the kidneys which filter the blood to form urine. Kidneys ordinarily never let glucose pass into the urine but when the glucose level is excessive, this glucose wnters the urine and during this, kidneys filter a lot of water also which results in excessive and frequent urination in diabetes."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="2) Excessive thirst and dry mouth "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="Excessive urination in diabetes leads to a shortage of water in the body. This, in turn, leads to thirst and dry mouth."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="3) Hunger "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="Since the body cells do not get glucose, they begin to starve. Although the glucose is all around yet cells cannot utilize it. This is a case of 'scarcity amidst plenty'. This starvation of body cells lead to more and more hunger."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="4) Weight Loss "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="When body cells cannot utilize glucose, the stored fat in the body is slowly disintegrated to compensate it. This leads to loss of weight.  "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="5) Fatigue "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="Along with stored fat, the protein in the muscles is also disintegrated to nourish the starving cells. This results in fatigue and weakness of the body."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="6) Blurred vision "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="Our eyes have a fluid inside them that helps in focusing. Due to the high concentration of glucose in the blood, this fluid also changes its concentration thus leading to a blurring vision and frequent changes in the power of eye lenses."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="7) Slow healing of cuts and wounds "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="Since the blood contains an abnormal amount for the growth of pus-forming micro-organisms. This, in turn, affects the healing of even small cuts and abrasions and delays the recovery."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="8) Itchy skin and fungal infection "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="serif"
+                android:text="The blood of a diabetic is quite rich in glucose which provides favorable conditions for faster growth of micro-organisms that cause diseases. This is more visible on the skin which becomes vulnerable to infections. This excessive glucose also causes itching on the skin."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="Complications"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="170dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/complications"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="There are various complications that may take place due to prolonged of glucose in the bloodstream."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="2dp"
+                android:text="Some commonly occurring complications include:"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="serif"
+                android:text="A. Diabetic Coma"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="serif"
+                android:text="B. Coronary Heart Disease"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="serif"
+                android:text="C. Cerebral Hemorrhage"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="serif"
+                android:text="D. Gangrene"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="These complications are a result of very complex changes that take  place in the body due to excess glucose. Almost all parts of the body are affected by Diabetes and in the long run, it ruins all body parts."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:text="Hyperglycemic coma"
+                android:textColor="@color/Black"
+                android:textSize="17sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="18dp"
+                android:fontFamily="serif"
+                android:text="This is a commonly occurring complication of diabetes. But how does it happen?"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:layout_marginLeft="18dp"
+                android:text="In diabetics, glucose does not nourish the body cell either due to deficiency od insulin or due to the inability of body cells to utilize available insulin. As a result, stored fats in the body start disintegrating and chemical compounds called 'ketones' are formed which make the blood 'acidic'. Now the body tries to reduce the acidity and forms more and more urine. But this, in turn, reduces the fluid content of the body and further increases the acidity of the blood which eventually affects the brain and Coma sets in."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="What to do?"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/what_todo"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="There are some predisposing factors that may cause diabetes as explained earlier. A sedentary lifestyle invites the disease therefore one should cultivate a lifestyle full of physical activities and exercises. People working in offices usually do not get oppurtunity to remain physically active. Such people should try to spend some time out of their chairs and do as much physical activity as possible at their workplace. Today's little workout can ward off tomorrow's great suffering."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="Obesity is another big predisposing condition. More than 70% of elder people who develop diabetes are obese."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="Physical exercises and a check on food intake are the best things one can do to avoid adding unwanted weight"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="Family history plays a role in causing diabetes. When one is aware of the occurrence of diabetes in the family, one should prepare against the disease by avoiding other predisposing factors like obesity, sedentary lifestyle, faulty eating habits, etc. Remember, a prepared man has half fought the battle! "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="Foods may also be related to diabetes but it is not known with certainty which foods may cause diabetes or may hamper the activity of the pancreas. One should be careful in selecting food. The intake of fast foods and those foods that are quite rich in carbohydrates should be minimized."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="Diabetes badly affects all physiological systems of the human body. The majority of the diabetics develop severe complications that shorten the lifespan. Whether there is any history of diabetes in one's family or not, it is always advisable to take precautions and lead a physically active life. Remember, prevention is always better than cure!"
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_things"
+            android:icon="@drawable/thingsyouneed_logo"
+            android:title="Facts about Diabetes" />
+        <item
+            android:id="@+id/nav_diabeticfood"
+            android:icon="@drawable/diabeticfood_logo"
+            android:title="Diabetic Foods" />
+        <item
+            android:id="@+id/nav_easytests"
+            android:icon="@drawable/easytests_logo"
+            android:title="5 Easy Tests for Diabetes" />
+        <item
+            android:id="@+id/nav_medreminder"
+            android:icon="@drawable/medreminder_logo"
+            android:title="Medicine Reminder" />
+        <item
+            android:id="@+id/nav_dietplan"
+            android:icon="@drawable/dietplan_logo"
+            android:title="Diet Plan" />
+        <item
+            android:id="@+id/nav_bestexercise"
+            android:icon="@drawable/bestexercises_logo"
+            android:title="Best Exercises" />
+        <item
+            android:id="@+id/nav_caloriecounter"
+            android:icon="@drawable/caloriecounter_logo"
+            android:title="Calories Counter" />
+        <item
+            android:id="@+id/nav_diabetestips"
+            android:icon="@drawable/tips_logo"
+            android:title="Tips to Beat Diabetes" />
+        <item
+            android:id="@+id/nav_organsdamaged"
+            android:icon="@drawable/complications_logo"
+            android:title="Organs Damaged by Diabetes" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_chgname"
+                android:icon="@drawable/settings_icon"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_abtus"
+                android:icon="@drawable/aboutapp_logo"
+                android:title="About Us" />
+
+        </menu>
+    </item>
+</menu>

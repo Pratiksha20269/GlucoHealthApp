@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BestFoods"
+    android:background="@color/grey"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#B5BDB9"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="20sp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="Foods which are Best For Diabetes"
+                android:textColor="@color/Black"
+                android:textSize="25sp">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="BROWN RICE/ WILD RICE"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/brown_rice"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="In comparison to white rice, these have a lower glycemic index (50). They are also rich in fiber which slows down the absorption of glucose and hence prevents sudden spikes in blood sugar."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="BLACK TEA/ GREEN TEA"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/green_tea"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Tea or coffee made with low fat milk and no added sugar are the preferred beverages for Diabetics. Green tea, without the addition of sweeteners (sugar or honey) or milk, is a healthy alternative. it has very few calories and it also has plenty of anti-oxidants."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="OATS/ OATMEAL"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/oats"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="This fiber rich food not only helps in control of blood sugar levels, it also helps in weight management due to low fat, low calorie and high fiber content. It also makes a person feel full for a longer time."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="FISH"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fish"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Fish has no fat content. It also has high levels of omega-3 fatty acids which helps in reducing inflammation. This works indirectly to bring down blood sugar levels. It also has an added advantage that it is rich in protein."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="NUTS"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nuts"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Nuts like walnuts and almonds are rich in Poly Unsaturated Fatty Acids (PUFA), vitamins and antioxidants. They also bring satiety and so less calories are consumed."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="CINNAMON"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cinnamon"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Cinnamon helps in reducing blood sugar levels. It also works on bringing down Triglycerides and LDL levels. It contains Chromium which acts as an enhancer of insulin. Daily consumption of 1-2 grams works wonders."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="PULSES"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pulses"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Pulses are rich in protein and have low glycemic index. When incorporated as the main portion of food, they tend to reduce the consumption of rice which indirectly helps in reducing blood sugar levels."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="SALADS"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/salads"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Salads are considered as a great asset for those who need to watch their weight. They have high fiber, low sugar levels and also makes a person feel full soon."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="*Best Vegetables*"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="All vegetables that grow above the ground tend to have a lower glycemic index in comparison to roots and tubers. Here are the list of Top 5 Veggies that are Good for controlling Diabetes."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="1. Bitter melon/ Bitter gourd"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bitter_melon"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Bitter melon contains many nutrients that can be beneficial to your health. It's linked to lowering blood sugar, which some studies suggest means it can aid in diabetes treatment."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="2. Green leafy Vegetables"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/green_leafy"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Leafy green vegetables are extremely nutritious and low in calories. They're also very low in digestible carbs, or carbs absorbed by the body, so they won't significantly affect blood sugar levels. Spinach, kale and other leafy greens are good sources of many vitamins and minerals, including vitamin C."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="3. Okra/ Ladies' Finger"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/okra"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Besides being rich with antioxidants, bhindi, also known as okra, is an excellent source of both soluble and insoluble fibre, that takes its on time to breakdown and digest, making for an excellent pick for diabetes. Okra water can be a great option for blood sugar management. Okra has been suggested to help manage blood sugar in cases of type 1, type 2, and gestational diabetes."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="4. Broccoli"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/broccoli"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Broccoli is a member of the cruciferous family and is packed with fiber and nutrients—whether raw or cooked. Broccoli help manage your blood sugar levels. Consuming broccoli sprouts led to a 10 percent reduction in blood glucose in people with diabetes. "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="5. Fenugreek"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/fenugreek"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Fenugreek are high in soluble fibre, which helps lower blood sugar by slowing down digestion and absorption of carbohydrates."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="*Best Fruits*"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Certain fruits have lower glycemic index and hence can be consumed without getting high blood sugars. Here are the list of Top 6 fruits that are safe for Diabetic patients."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="1. Cherries"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cherries"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Cherries are loaded with a  variety of antioxidants, some of which are anti diabetic in nature. Cherries are rich in fibre and around ten cherries will provide the body with 1.4 grams of fibre, which is nearly 10 percent of an adult's RDA (Recommended Dietary Allowance). Fibre delays digestion, it does not allow the sugar to get metabolised quickly and cause a surge in blood sugar levels. The glycaemic index of cherry is very low. The GI score of cherries is a mere 20. Cherries are very low on carbs too. One cup has about 19 g of carbs. The Glycemic Index (GI) is a relative ranking of carbohydrate in foods according to how they affect blood glucose levels. Carbs with low GI value (55 or less) are digested, absorbed and metabolised slowly and cause a gradual rise in blood glucose. Low GI foods are recommended for diabetics so that they don't encounter sudden spikes in blood sugar levels for a meal."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="2. Grapefruit"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/grapefruit"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Drinking grapefruit juice may actually be beneficial if you have diabetes. An animal studyTrusted Source showed that drinking preparations of clarified grapefruit juice reduced both fasting glucose and weight gain. The effects observed were similar to the effects of metformin."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="3. Berries"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/berries"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="The American Diabetes Association (ADA) calls blueberries a diabetes superfood. While there’s no technical definition of the term “superfood,” blueberries are packed with vitamins, antioxidants, minerals, and fiber that promote overall health. They may also help prevent disease. For people living with diabetes, blueberries may help with glucose processing, weight loss, and insulin sensitivity."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="4. Prunes and Plums"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/prunes_plums"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Plums and Prunes are an excellent source of vitamins, minerals, fiber and antioxidants. Additionally, they have several characteristics that may reduce the risk of many chronic diseases, such as osteoporosis, cancer, heart disease and diabetes. "
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="5. Apples"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apples"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Apples are a great snack choice for diabetics as they only have 80 to 90 calories and are low on the glycemic index. Plus, they’re a good source of fiber and vitamin C. The skin, or apple peel, is the most nutritious part of the fruit, as it is where most of the antioxidants are found. All of these things are a positive factor when it comes to managing diabetes. And according to the Harvard Gazette, apples are particularly beneficial for reducing the risk of developing type 2 diabetes."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="6. Pears"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pears"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="Pears can be very tasty and are a great fruit to eat if you have diabetes. Their nutritional benefits can actually help you manage the condition, as many studies indicate. Pears also have a low glycemic index, so they won't raise your blood glucose too quickly."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:text="7. Kiwi"
+                android:textColor="@color/Black"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/kiwi"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="serif"
+                android:text="You could include kiwi in your diet. Many researchers have proved that eating kiwis could actually help you in lowering your blood sugar levels. This fruit is one of the best fruits for people suffering from diabetes. It not only controls your blood sugar level but also helps in controlling diabetes."
+                android:textColor="@color/Black"
+                android:textSize="15sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

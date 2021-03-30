@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EasyTests">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#B5BDB9"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20sp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="5 Easy Tests for Diabetes "
+        android:textColor="@color/Black"
+        android:textSize="25sp">
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B5BDB9"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/chart"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="Diabetes is a disease caused by the lack of insulin(a hormone that your body relies upon to convert blood sugar into energy) in the body. But how can you test for diabetes and see whether you have contracted the disease yourself? The best way is to go and see your doctor and ask them to test you. They will then be able to give you an accurate diagnosis. In this article, we will discuss five of the most popular diabetes tests that your doctor is likely to use."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5BDB9"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:text=" 1) FASTING PLASMA GLUCOSE(FPG) TEST"
+            android:textColor="@color/Black"
+            android:textSize="20sp"></TextView>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/fasting_plasma"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="The FPG test has become one of the most popular diabetes tests. The main drawback of the FPG test is that it is not suitable to test for gestational diabetes (a form of diabetes which develops during pregnancy). However, if you are not pregnant, the chances are that your doctor will use this test to make their diagnosis."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="To begin, you will be scheduled for an FPG test. Your doctor will require you to eat nothing for at least eight hours prior to the test. During the test, they will take a blood sample and measure your blood glucose levels. They will then analyze the blood sample and diagnose you based on the following rules:"
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="- A blood sugar level of 99 milligrams per deciliter (mg/dL) or less = Normal."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="- A blood sugar level of between 100 mg/dL and 125 mg/dL = Impaired Fasting Glucose (a form of pre-diabetes which if left untreated can develop into type 2 diabetes)."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="- A blood sugar level of 126 mg/dL or greater = Type 1 or type 2 diabetes. In this instance, you will be given another FPG for accuracy. If both FPGs suggest that you have diabetes your doctor will investigate further and diagnose you with type 1 or type 2 diabetes"
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5BDB9"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:text=" 2) POST PRANDIAL BLOOD SUGAR TEST"
+            android:textColor="@color/Black"
+            android:textSize="20sp"></TextView>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/post_prandial"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="Post-Prandial Blood Sugar Test is a blood test done to either diagnose or to know how effective the medications are, in controlling a sugar surge after a meal. The test is usually done after taking a fasting sample of blood. The person is then asked to have a meal and blood sugar levels are checked again after two hours from the start of the meal. In the case of pregnant women with diabetes, the test is usually done an hour after the meal. A normal person usually has sugar levels within 140mg/dl after a meal. If the person's blood sugar level is between 140-200, then he is considered to be prediabetic and values above 200 are sure indicators of Diabetes."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="12dp"
+            android:text="For those who have already been diagnosed with Diabetes, this test is done to know whether the treatment being given is adequate or there is a need for change in the treatment. The endocrinologist can also determine the type of drugs to be given on the basis of Fasting and Postprandial blood sugar values."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5BDB9"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:text="3) ORAL GLUCOSE TOLERANCE TEST (OGTT)"
+            android:textColor="@color/Black"
+            android:textSize="20sp"></TextView>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/oral_test"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="This test is similar to the FPG but it can be used to diagnose all types of diabetes. If you are a man or non-pregnant woman your doctor will book you in for an FPG test. Following the FPG test, they will then give you a drink containing glucose and take regular blood samples after you have drunk it. If you are pregnant you will be given the glucose drink without an FPG test and regular blood samples will be taken following consumption. In both variations the final blood sample will be used to make a diagnosis based on the following rules:"
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="- A blood sugar level of 140 mg/dL or less = Normal."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="- A blood sugar level of between 140 mg/dL and 199 mg/dL = Impaired Fasting Glucose (a form of pre-diabetes which if left untreated can develop into type 2 diabetes)."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="- A blood sugar reading of 200 mg/dL or greater = Type 1, type 2 or gestational diabetes. If you are a pregnant woman then you will be diagnosed with gestational diabetes. Otherwise, your doctor will investigate further and diagnose you with type 1 or type 2 diabetes."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5BDB9"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:text="4) RANDOM BLOOD GLUCOSE(RBG) TEST"
+            android:textColor="@color/Black"
+            android:textSize="20sp"></TextView>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/random_test"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="The RBG does exactly what it says and involves a random blood test being taken. RBG tests can be performed without the assistance of your doctor using a glucose meter (a piece of medical equipment that calculates the approximate level of glucose in your blood). The test involves pricking your finger with a lancing device (a device that draws a small amount of blood from your finger), placing the blood on a test strip and then inserting this test strip into your glucose meter to get a reading. If multiple RBG tests show that you have blood sugar levels higher than 200 mg/dL then you may have diabetes."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="Although RBG tests are easy to perform they should NOT be used as the only test when diagnosing diabetes. They are approximately 10% as accurate as laboratory tests and therefore any concerns you may have as the result of multiple RBG tests should be followed up with your doctor. Only your doctor will be able to give you a full and accurate diagnosis."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5BDB9"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:text="5) GLYCOSYLATED HAEMOGLOBIN TEST"
+            android:textColor="@color/Black"
+            android:textSize="20sp"></TextView>
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/hemoglobin"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="Glycosylated hemoglobin is the term used to describe hemoglobin that has bound with glucose. Glycosylated hemoglobin cells usually last for between two to four months. If you have diabetes or you are not managing your diabetes effectively the level of glycosylated hemoglobin in your blood will increase. To begin the glycosylated hemoglobin test your doctor will take a blood sample and analyze the glycosylated hemoglobin levels based on the following results:"
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="- Glycosylated hemoglobin levels of between 4% and 6% = Normal. "
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="- Glycosylated hemoglobin levels below 7% = Diabetes that is under control."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="- Glycosylated hemoglobin levels are greater than 7% = Diabetes that is not under control."
+            android:textColor="@color/Black"
+            android:textSize="15sp"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5BDB9"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></View>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5BDB9"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"></View>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="button" type="id"/>
+    <item name="Email" type="id"></item>
+    <item name="password" type="id"></item>
+    <item name="loginBtn" type="id"></item>
+    <item name="registerBtn" type="id"></item>
+    <item name="fullName" type="id"></item>
+    <item name="contact" type="id"></item>
+    <item name="age" type="id"></item>
+    <item name="male" type="id"></item>
+    <item name="female" type="id"></item>
+    <item name="proceedBtn" type="id"></item>
+    <item name="FoodName" type="id"></item>
+    <item name="addBtn" type="id"></item>
+
+</resources>

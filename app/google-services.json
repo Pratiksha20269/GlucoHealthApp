@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190416973773",
+    "project_id": "glucohealth-c0cd3",
+    "storage_bucket": "glucohealth-c0cd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190416973773:android:cb58daefaeccaacd9dde84",
+        "android_client_info": {
+          "package_name": "com.example.glucohealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190416973773-k8s5khmr8llborga7i1thoc88t3okeum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDamRzibGbs5Dl4jeS_nJh4v-R-mEn0NyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190416973773-k8s5khmr8llborga7i1thoc88t3okeum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

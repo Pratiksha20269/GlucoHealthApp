@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietPlan">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#B5BDB9"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20sp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="Diet Chart"
+        android:textColor="@color/Black"
+        android:textSize="25sp">
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B5BDB9"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:text="Early morning:"
+            android:textColor="@color/Black"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/Black"
+            android:text="1 cup warm water + 1 tsp overnight soaked methi seeds + 1 wati Soft Papaya / 1 small fruit"
+            android:textSize="16sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:text="Breakfast (8am):"
+            android:textColor="@color/Black"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/Black"
+            android:text="Milk/ Tea/ Coffee 1 cup + Oats/ Rava/ Lapsi Porridge 1 bowl Or 1 bowl veg Poha/ veg daliya/ Upma"
+            android:textSize="16sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:text="Mid-Morning (10:30 am):"
+            android:textColor="@color/Black"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/Black"
+            android:text="Fruit - 1"
+            android:textSize="16sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:text="Lunch:"
+            android:textColor="@color/Black"></TextView>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="FOOD GROUP"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="15dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="LUNCH 12.30-1pm"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="15dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+            </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:text="Jowar/Bajra/Wheat chapati OR"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="14dp"
+                        android:textColor="@color/Black"
+                        android:gravity="center"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:text="Maximum 1-2 with a good amount of vegetables"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="14dp"
+                        android:textColor="@color/Black"
+                        android:gravity="center"></TextView>
+                </TableRow>
+                    <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:text="Veg Khichdi"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="14dp"
+                        android:textColor="@color/Black"
+                        android:gravity="center"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:text="1 Bowl"
+                            android:fontFamily="sans-serif-medium"
+                            android:textSize="14dp"
+                            android:textColor="@color/Black"
+                            android:gravity="center"></TextView>
+                    </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="Dal"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1 Bowl"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="Seasonal Vegetables"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1 Bowl"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="Salad"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1 Bowl"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="Curd"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1 Bowl"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14dp"
+                    android:textColor="@color/Black"
+                    android:gravity="center"></TextView>
+            </TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="20dp"
+                android:text="4 pm:"
+                android:textColor="@color/Black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="Tea/Coffee 1 cup + 2 Moong dal chilla/ Boiled corn/ Sprouted moong/ Roasted Makahana/ Roasted Chana."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="20dp"
+                android:text="5:30 pm:"
+                android:textColor="@color/Black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="1 Fruit/ 1 bowl Soup."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="20dp"
+                android:text="Dinner (8pm):"
+                android:textColor="@color/Black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="Same as Lunch"
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="20dp"
+                android:text="10:00 pm:"
+                android:textColor="@color/Black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="1Cup Milk + 1/4 tsp haldi powder + 2 dried figs(soaked in water)."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="20dp"
+                android:text="Additional Instructions:"
+                android:textColor="@color/Black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* No fasting and no feasting. Do not skip meals."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Restrict Fried Foods/ Papads/ Pickles/ Farsans/ Chips, Burger, Pizza, French fries, Soft drinks etc."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Restrict the use of garam masala powder."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Avoid Bakery products."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Avoid processed/preserved foods."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Fruits to avoid Mango, Chickoo, Banana, Custard Apple, Grapes."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Avoid sugar, jaggery, Honey, fruit juices."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Avoid potato, sweet potato, Sabudana, arvi, suran."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Do not add salt at the table."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/Black"
+                android:text="* Salt 3-4gms/day."
+                android:textSize="16sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:paddingLeft="20dp"
+                android:text="# If you love to eat non-veg, you should prefer seafood and chicken rather than red meat. Red meat has a higher amount of saturated fats which is not good for the body. Eating too much red and processed meats can increase your risk of Type 2 diabetes. Red meat includes pork, beef and mutton.People who have high cholesterol should avoid egg yolk #"
+                android:textColor="@color/Black"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B5BDB9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"></View>
+
+
+
+
+
+
+
+        </TableLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
